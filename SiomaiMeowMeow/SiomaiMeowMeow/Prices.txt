@@ -1,0 +1,12 @@
+Prices 
+Siomai 5 pieces = 45 PHP
+Siomai rice = 50 PHP
+Siomai rice w/Gulaman = 65 PHP
+Gulaman = 15 PHP 
+Buko = 17 PHP
+Pineapple Juice Delmonte galeng sa austria = 17 PHP
+Bottled Water galeng sa mountains ng mount everest = 20 PHP
+Addons
+Extra Rice = 10 PHP
+Garlic Rice = 20 PHP
+Java Rice = 25 PHP
