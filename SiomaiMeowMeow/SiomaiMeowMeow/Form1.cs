@@ -21,7 +21,8 @@ namespace SiomaiMeowMeow
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TotalPrice = +25;
+            TotalPrice = +45;
+
 
         }
 
@@ -31,6 +32,11 @@ namespace SiomaiMeowMeow
         }
 
         private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pork_Click(object sender, EventArgs e)
         {
 
         }

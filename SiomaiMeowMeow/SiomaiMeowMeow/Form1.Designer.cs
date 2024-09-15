@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
+            Chicken = new Button();
+            Pork = new Button();
+            SharkFin = new Button();
+            Beef = new Button();
+            BeefW = new Button();
+            ComboA = new Button();
+            ComboB = new Button();
+            RegRice = new Button();
+            Jrice = new Button();
+            JellyJuice = new Button();
+            Buko = new Button();
+            Woteh = new Button();
+            PineJ = new Button();
+            ShrimpW = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             panel1 = new Panel();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            TotalValue = new TextBox();
+            Qty = new TextBox();
+            PriceText = new TextBox();
+            ProdName = new TextBox();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            label9 = new Label();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
+            Quantity = new Label();
+            Price = new Label();
+            ProductName = new Label();
+            TotalText = new Label();
+            Heading = new Label();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
-            button6 = new Button();
+            GRice = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -73,168 +73,169 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // Chicken
             // 
-            button1.BackColor = Color.White;
-            button1.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button1.Location = new Point(384, 64);
-            button1.Name = "button1";
-            button1.Size = new Size(180, 97);
-            button1.TabIndex = 0;
-            button1.Text = "Chicken Siomai";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            Chicken.BackColor = Color.White;
+            Chicken.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Chicken.Location = new Point(384, 64);
+            Chicken.Name = "Chicken";
+            Chicken.Size = new Size(180, 97);
+            Chicken.TabIndex = 0;
+            Chicken.Text = "Chicken Siomai";
+            Chicken.UseVisualStyleBackColor = false;
+            Chicken.Click += button1_Click;
             // 
-            // button2
+            // Pork
             // 
-            button2.BackColor = Color.White;
-            button2.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button2.Location = new Point(621, 64);
-            button2.Name = "button2";
-            button2.Size = new Size(180, 97);
-            button2.TabIndex = 0;
-            button2.Text = "Pork Siomai";
-            button2.UseVisualStyleBackColor = false;
+            Pork.BackColor = Color.White;
+            Pork.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Pork.Location = new Point(621, 64);
+            Pork.Name = "Pork";
+            Pork.Size = new Size(180, 97);
+            Pork.TabIndex = 0;
+            Pork.Text = "Pork Siomai";
+            Pork.UseVisualStyleBackColor = false;
+            Pork.Click += Pork_Click;
             // 
-            // button3
+            // SharkFin
             // 
-            button3.BackColor = Color.White;
-            button3.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button3.Location = new Point(863, 64);
-            button3.Name = "button3";
-            button3.Size = new Size(180, 97);
-            button3.TabIndex = 0;
-            button3.Text = "SharkFin";
-            button3.UseVisualStyleBackColor = false;
+            SharkFin.BackColor = Color.White;
+            SharkFin.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            SharkFin.Location = new Point(863, 64);
+            SharkFin.Name = "SharkFin";
+            SharkFin.Size = new Size(180, 97);
+            SharkFin.TabIndex = 0;
+            SharkFin.Text = "SharkFin";
+            SharkFin.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // Beef
             // 
-            button4.BackColor = Color.White;
-            button4.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button4.Location = new Point(863, 208);
-            button4.Name = "button4";
-            button4.Size = new Size(180, 97);
-            button4.TabIndex = 0;
-            button4.Text = "Beef Siomai";
-            button4.UseVisualStyleBackColor = false;
+            Beef.BackColor = Color.White;
+            Beef.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Beef.Location = new Point(863, 208);
+            Beef.Name = "Beef";
+            Beef.Size = new Size(180, 97);
+            Beef.TabIndex = 0;
+            Beef.Text = "Beef Siomai";
+            Beef.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // BeefW
             // 
-            button5.BackColor = Color.White;
-            button5.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button5.Location = new Point(384, 208);
-            button5.Name = "button5";
-            button5.Size = new Size(180, 97);
-            button5.TabIndex = 0;
-            button5.Text = "Beef Wonton";
-            button5.UseVisualStyleBackColor = false;
+            BeefW.BackColor = Color.White;
+            BeefW.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            BeefW.Location = new Point(384, 208);
+            BeefW.Name = "BeefW";
+            BeefW.Size = new Size(180, 97);
+            BeefW.TabIndex = 0;
+            BeefW.Text = "Beef Wonton";
+            BeefW.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // ComboA
             // 
-            button7.BackColor = Color.White;
-            button7.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button7.Location = new Point(384, 378);
-            button7.Name = "button7";
-            button7.Size = new Size(157, 90);
-            button7.TabIndex = 0;
-            button7.Text = "Siomai w/Rice";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
+            ComboA.BackColor = Color.White;
+            ComboA.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            ComboA.Location = new Point(384, 378);
+            ComboA.Name = "ComboA";
+            ComboA.Size = new Size(157, 90);
+            ComboA.TabIndex = 0;
+            ComboA.Text = "Siomai w/Rice";
+            ComboA.UseVisualStyleBackColor = false;
+            ComboA.Click += button7_Click;
             // 
-            // button8
+            // ComboB
             // 
-            button8.BackColor = Color.White;
-            button8.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button8.Location = new Point(559, 378);
-            button8.Name = "button8";
-            button8.Size = new Size(157, 90);
-            button8.TabIndex = 0;
-            button8.Text = "Siomai Rice w/Gulaman";
-            button8.UseVisualStyleBackColor = false;
+            ComboB.BackColor = Color.White;
+            ComboB.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            ComboB.Location = new Point(559, 378);
+            ComboB.Name = "ComboB";
+            ComboB.Size = new Size(157, 90);
+            ComboB.TabIndex = 0;
+            ComboB.Text = "Siomai Rice w/Gulaman";
+            ComboB.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // RegRice
             // 
-            button9.BackColor = Color.White;
-            button9.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button9.Location = new Point(384, 522);
-            button9.Name = "button9";
-            button9.Size = new Size(157, 59);
-            button9.TabIndex = 0;
-            button9.Text = "Extra Rice";
-            button9.UseVisualStyleBackColor = false;
+            RegRice.BackColor = Color.White;
+            RegRice.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            RegRice.Location = new Point(384, 522);
+            RegRice.Name = "RegRice";
+            RegRice.Size = new Size(157, 59);
+            RegRice.TabIndex = 0;
+            RegRice.Text = "Extra Rice";
+            RegRice.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // Jrice
             // 
-            button10.BackColor = Color.White;
-            button10.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button10.Location = new Point(559, 522);
-            button10.Name = "button10";
-            button10.Size = new Size(157, 59);
-            button10.TabIndex = 0;
-            button10.Text = "Java rice";
-            button10.UseVisualStyleBackColor = false;
+            Jrice.BackColor = Color.White;
+            Jrice.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Jrice.Location = new Point(559, 522);
+            Jrice.Name = "Jrice";
+            Jrice.Size = new Size(157, 59);
+            Jrice.TabIndex = 0;
+            Jrice.Text = "Java rice";
+            Jrice.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // JellyJuice
             // 
-            button11.BackColor = Color.White;
-            button11.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button11.Location = new Point(742, 378);
-            button11.Name = "button11";
-            button11.Size = new Size(157, 90);
-            button11.TabIndex = 0;
-            button11.Text = "Gulaman";
-            button11.UseVisualStyleBackColor = false;
+            JellyJuice.BackColor = Color.White;
+            JellyJuice.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            JellyJuice.Location = new Point(742, 378);
+            JellyJuice.Name = "JellyJuice";
+            JellyJuice.Size = new Size(157, 90);
+            JellyJuice.TabIndex = 0;
+            JellyJuice.Text = "Gulaman";
+            JellyJuice.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // Buko
             // 
-            button12.BackColor = Color.White;
-            button12.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button12.Location = new Point(923, 378);
-            button12.Name = "button12";
-            button12.Size = new Size(157, 90);
-            button12.TabIndex = 0;
-            button12.Text = "Buko";
-            button12.UseVisualStyleBackColor = false;
+            Buko.BackColor = Color.White;
+            Buko.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Buko.Location = new Point(923, 378);
+            Buko.Name = "Buko";
+            Buko.Size = new Size(157, 90);
+            Buko.TabIndex = 0;
+            Buko.Text = "Buko";
+            Buko.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // Woteh
             // 
-            button13.BackColor = Color.White;
-            button13.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button13.Location = new Point(923, 498);
-            button13.Name = "button13";
-            button13.Size = new Size(157, 90);
-            button13.TabIndex = 0;
-            button13.Text = "Bottled Water ";
-            button13.UseVisualStyleBackColor = false;
+            Woteh.BackColor = Color.White;
+            Woteh.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            Woteh.Location = new Point(923, 498);
+            Woteh.Name = "Woteh";
+            Woteh.Size = new Size(157, 90);
+            Woteh.TabIndex = 0;
+            Woteh.Text = "Bottled Water ";
+            Woteh.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // PineJ
             // 
-            button14.BackColor = Color.White;
-            button14.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button14.Location = new Point(742, 498);
-            button14.Name = "button14";
-            button14.Size = new Size(157, 90);
-            button14.TabIndex = 0;
-            button14.Text = "Pineapple Juice";
-            button14.UseVisualStyleBackColor = false;
-            button14.Click += button14_Click;
+            PineJ.BackColor = Color.White;
+            PineJ.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            PineJ.Location = new Point(742, 498);
+            PineJ.Name = "PineJ";
+            PineJ.Size = new Size(157, 90);
+            PineJ.TabIndex = 0;
+            PineJ.Text = "Pineapple Juice";
+            PineJ.UseVisualStyleBackColor = false;
+            PineJ.Click += button14_Click;
             // 
-            // button15
+            // ShrimpW
             // 
-            button15.BackColor = Color.White;
-            button15.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button15.Location = new Point(621, 208);
-            button15.Name = "button15";
-            button15.Size = new Size(180, 97);
-            button15.TabIndex = 0;
-            button15.Text = "Shrimp Wonton";
-            button15.UseVisualStyleBackColor = false;
+            ShrimpW.BackColor = Color.White;
+            ShrimpW.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            ShrimpW.Location = new Point(621, 208);
+            ShrimpW.Name = "ShrimpW";
+            ShrimpW.Size = new Size(180, 97);
+            ShrimpW.TabIndex = 0;
+            ShrimpW.Text = "Shrimp Wonton";
+            ShrimpW.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 15.75F, FontStyle.Bold);
-            label1.Location = new Point(384, 9);
+            label1.Location = new Point(384, 16);
             label1.Name = "label1";
             label1.Size = new Size(108, 24);
             label1.TabIndex = 1;
@@ -277,62 +278,66 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.Control;
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(TotalValue);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
+            panel1.Controls.Add(Quantity);
+            panel1.Controls.Add(Price);
+            panel1.Controls.Add(ProductName);
+            panel1.Controls.Add(TotalText);
+            panel1.Controls.Add(Heading);
+            panel1.Controls.Add(Qty);
+            panel1.Controls.Add(PriceText);
+            panel1.Controls.Add(ProdName);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(361, 659);
+            panel1.Size = new Size(361, 684);
             panel1.TabIndex = 2;
             // 
-            // textBox3
+            // TotalValue
             // 
-            textBox3.BackColor = SystemColors.Control;
-            textBox3.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(229, 608);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(129, 38);
-            textBox3.TabIndex = 3;
-            textBox3.Text = "Pakyo";
-            textBox3.TextAlign = HorizontalAlignment.Right;
+            TotalValue.BackColor = SystemColors.Control;
+            TotalValue.BorderStyle = BorderStyle.None;
+            TotalValue.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            TotalValue.Location = new Point(229, 633);
+            TotalValue.Multiline = true;
+            TotalValue.Name = "TotalValue";
+            TotalValue.Size = new Size(129, 38);
+            TotalValue.TabIndex = 3;
+            TotalValue.Text = "₱";
+            TotalValue.TextAlign = HorizontalAlignment.Right;
             // 
-            // textBox4
+            // Qty
             // 
-            textBox4.Location = new Point(180, 78);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(66, 509);
-            textBox4.TabIndex = 2;
+            Qty.BorderStyle = BorderStyle.FixedSingle;
+            Qty.Location = new Point(180, 78);
+            Qty.Multiline = true;
+            Qty.Name = "Qty";
+            Qty.Size = new Size(73, 536);
+            Qty.TabIndex = 2;
             // 
-            // textBox2
+            // PriceText
             // 
-            textBox2.Location = new Point(246, 78);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(115, 510);
-            textBox2.TabIndex = 2;
+            PriceText.BorderStyle = BorderStyle.FixedSingle;
+            PriceText.Location = new Point(253, 78);
+            PriceText.Multiline = true;
+            PriceText.Name = "PriceText";
+            PriceText.Size = new Size(108, 536);
+            PriceText.TabIndex = 2;
             // 
-            // textBox1
+            // ProdName
             // 
-            textBox1.Location = new Point(0, 78);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(181, 510);
-            textBox1.TabIndex = 2;
+            ProdName.BorderStyle = BorderStyle.FixedSingle;
+            ProdName.Location = new Point(0, 78);
+            ProdName.Multiline = true;
+            ProdName.Name = "ProdName";
+            ProdName.Size = new Size(181, 536);
+            ProdName.TabIndex = 2;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(0, 587);
+            pictureBox2.Location = new Point(0, 609);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(360, 5);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -351,60 +356,60 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // label9
+            // Quantity
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Arial Black", 16F, FontStyle.Bold);
-            label9.Location = new Point(188, 44);
-            label9.Name = "label9";
-            label9.Size = new Size(65, 31);
-            label9.TabIndex = 1;
-            label9.Text = "QTY";
-            label9.Click += label1_Click;
+            Quantity.AutoSize = true;
+            Quantity.Font = new Font("Arial", 15.75F);
+            Quantity.Location = new Point(190, 51);
+            Quantity.Name = "Quantity";
+            Quantity.Size = new Size(52, 24);
+            Quantity.TabIndex = 1;
+            Quantity.Text = "QTY";
+            Quantity.Click += label1_Click;
             // 
-            // label8
+            // Price
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Arial Black", 16F, FontStyle.Bold);
-            label8.Location = new Point(273, 44);
-            label8.Name = "label8";
-            label8.Size = new Size(77, 31);
-            label8.TabIndex = 1;
-            label8.Text = "Price";
-            label8.Click += label1_Click;
+            Price.AutoSize = true;
+            Price.Font = new Font("Arial", 15.75F);
+            Price.Location = new Point(272, 51);
+            Price.Name = "Price";
+            Price.Size = new Size(59, 24);
+            Price.TabIndex = 1;
+            Price.Text = "Price";
+            Price.Click += label1_Click;
             // 
-            // label7
+            // ProductName
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Arial Black", 16F, FontStyle.Bold);
-            label7.Location = new Point(0, 44);
-            label7.Name = "label7";
-            label7.Size = new Size(187, 31);
-            label7.TabIndex = 1;
-            label7.Text = "Product Name";
-            label7.Click += label1_Click;
+            ProductName.AutoSize = true;
+            ProductName.Font = new Font("Arial", 15.75F);
+            ProductName.Location = new Point(22, 51);
+            ProductName.Name = "ProductName";
+            ProductName.Size = new Size(142, 24);
+            ProductName.TabIndex = 1;
+            ProductName.Text = "Product Name";
+            ProductName.Click += label1_Click;
             // 
-            // label6
+            // TotalText
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial Black", 20F, FontStyle.Bold);
-            label6.Location = new Point(3, 608);
-            label6.Name = "label6";
-            label6.Size = new Size(101, 38);
-            label6.TabIndex = 1;
-            label6.Text = "Total:";
-            label6.Click += label1_Click;
+            TotalText.AutoSize = true;
+            TotalText.Font = new Font("Arial Black", 20F, FontStyle.Bold);
+            TotalText.Location = new Point(11, 628);
+            TotalText.Name = "TotalText";
+            TotalText.Size = new Size(101, 38);
+            TotalText.TabIndex = 1;
+            TotalText.Text = "Total:";
+            TotalText.Click += label1_Click;
             // 
-            // label5
+            // Heading
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Arial Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(138, 9);
-            label5.Name = "label5";
-            label5.Size = new Size(193, 23);
-            label5.TabIndex = 1;
-            label5.Text = "House of The Siomai";
-            label5.Click += label1_Click;
+            Heading.AutoSize = true;
+            Heading.Font = new Font("Arial Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Heading.Location = new Point(138, 9);
+            Heading.Name = "Heading";
+            Heading.Size = new Size(193, 23);
+            Heading.TabIndex = 1;
+            Heading.Text = "House of The Siomai";
+            Heading.Click += label1_Click;
             // 
             // pictureBox3
             // 
@@ -420,7 +425,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(384, 36);
+            pictureBox4.Location = new Point(384, 43);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(112, 5);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -450,23 +455,23 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox1_Click;
             // 
-            // button6
+            // GRice
             // 
-            button6.BackColor = Color.White;
-            button6.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
-            button6.Location = new Point(475, 587);
-            button6.Name = "button6";
-            button6.Size = new Size(156, 59);
-            button6.TabIndex = 0;
-            button6.Text = "Garlic Rice";
-            button6.UseVisualStyleBackColor = false;
+            GRice.BackColor = Color.White;
+            GRice.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold);
+            GRice.Location = new Point(475, 587);
+            GRice.Name = "GRice";
+            GRice.Size = new Size(156, 59);
+            GRice.TabIndex = 0;
+            GRice.Text = "Garlic Rice";
+            GRice.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Bisque;
-            ClientSize = new Size(1129, 658);
+            ClientSize = new Size(1129, 679);
             Controls.Add(panel1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -476,21 +481,21 @@
             Controls.Add(pictureBox3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button14);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button6);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button15);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(PineJ);
+            Controls.Add(Woteh);
+            Controls.Add(Buko);
+            Controls.Add(JellyJuice);
+            Controls.Add(GRice);
+            Controls.Add(Jrice);
+            Controls.Add(RegRice);
+            Controls.Add(ComboB);
+            Controls.Add(ComboA);
+            Controls.Add(ShrimpW);
+            Controls.Add(BeefW);
+            Controls.Add(Beef);
+            Controls.Add(SharkFin);
+            Controls.Add(Pork);
+            Controls.Add(Chicken);
             Name = "Form1";
             Text = "Form1";
             panel1.ResumeLayout(false);
@@ -507,40 +512,40 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
+        private Button Chicken;
+        private Button Pork;
+        private Button SharkFin;
+        private Button Beef;
+        private Button BeefW;
+        private Button ComboA;
+        private Button ComboB;
+        private Button RegRice;
+        private Button Jrice;
+        private Button JellyJuice;
+        private Button Buko;
+        private Button Woteh;
+        private Button PineJ;
+        private Button ShrimpW;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Panel panel1;
         private PictureBox pictureBox1;
-        private Label label5;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private Label Heading;
+        private TextBox PriceText;
+        private TextBox ProdName;
         private PictureBox pictureBox2;
-        private Label label8;
-        private Label label7;
-        private Label label6;
-        private TextBox textBox3;
+        private Label Price;
+        private Label ProductName;
+        private Label TotalText;
+        private TextBox TotalValue;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
-        private TextBox textBox4;
-        private Label label9;
-        private Button button6;
+        private TextBox Qty;
+        private Label Quantity;
+        private Button GRice;
     }
 }
